@@ -1,0 +1,1 @@
+java -classpath C:\Temp\Henry\Projects\microservices-sample1-0.0.1-SNAPSHOT\resources;C:\Temp\Henry\Projects\microservices-sample1-0.0.1-SNAPSHOT\lib\* com.henry.example.MicroservicesSample1

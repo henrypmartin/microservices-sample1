@@ -55,5 +55,11 @@
       		</plugin>
 		</plugins>
 	</build>
-
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/henrypmartin/microservices-sample1</url>
+   </repository>
+</distributionManagement>
 </project>

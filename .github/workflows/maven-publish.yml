@@ -27,7 +27,7 @@ jobs:
 
     - name: Build with Maven
       run: |
-            cat pom.xml 
+            echo "$(cat pom.xml)" 
             mvn -B package --file pom.xml
 
     - name: Publish to GitHub Packages Apache Maven

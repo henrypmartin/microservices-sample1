@@ -23,7 +23,7 @@
     </fileSet>
     <fileSet>
       <directory>${project.basedir}/appspec.yml</directory>
-      <outputDirectory>../</outputDirectory>      
+      <outputDirectory>/</outputDirectory>      
     </fileSet>	  
     <fileSet>
       <directory>${project.build.directory}</directory>

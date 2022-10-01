@@ -18,6 +18,14 @@
       <outputDirectory>resources</outputDirectory>      
     </fileSet>
     <fileSet>
+      <directory>${project.basedir}/src/main/scripts</directory>
+      <outputDirectory>scripts</outputDirectory>      
+    </fileSet>
+    <fileSet>
+      <directory>${project.basedir}/appspec.yml</directory>
+      <outputDirectory>../</outputDirectory>      
+    </fileSet>	  
+    <fileSet>
       <directory>${project.build.directory}</directory>
       <outputDirectory>lib</outputDirectory>
       <includes>

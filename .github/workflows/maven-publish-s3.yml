@@ -35,5 +35,5 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
         
     - name: Upload Artifact to s3
-      working-directory: $GITHUB_WORKSPACE/target
+      working-directory: target/
       run: aws s3 cp *.zip s3://${{ env.S3BUCKET }}/

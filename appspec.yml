@@ -36,9 +36,11 @@
 #   "permissions" section altogether. A blank or incomplete "permissions"
 #   section may cause associated deployments to fail.
   permissions:
+    - object: /home/ec2-user/DemoApps/src
+      owner: ec2-user
+      mode: 755
+
     - object: /home/ec2-user/DemoApps
-#     pattern:
-#     except:
       owner: ec2-user
 #     group:
 #     mode: 

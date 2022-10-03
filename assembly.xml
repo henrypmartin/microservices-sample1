@@ -22,9 +22,12 @@
       <outputDirectory>scripts</outputDirectory>      
     </fileSet>
     <fileSet>
-      <directory>${project.basedir}/appspec.yml</directory>
-      <outputDirectory>/</outputDirectory>      
-    </fileSet>	  
+      <directory>${project.basedir}</directory>
+      <outputDirectory>/</outputDirectory>
+      <includes>
+        <include>appspec.yml</include>
+      </includes>    
+    </fileSet>
     <fileSet>
       <directory>${project.build.directory}</directory>
       <outputDirectory>lib</outputDirectory>
